@@ -1,12 +1,12 @@
 <?php
 
-namespace VendorName\Skeleton\Commands;
+namespace Modularavel\Modularavel\Commands;
 
 use Illuminate\Console\Command;
 
-class SkeletonCommand extends Command
+class ModularavelCommand extends Command
 {
-    public $signature = 'skeleton';
+    public $signature = 'modularavel';
 
     public $description = 'My command';
 
