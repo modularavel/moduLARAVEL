@@ -2,9 +2,9 @@
 
 namespace Modularavel\Modularavel;
 
+use Modularavel\Modularavel\Commands\ModularavelCommand;
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
-use Modularavel\Modularavel\Commands\ModularavelCommand;
 
 class ModularavelServiceProvider extends PackageServiceProvider
 {
