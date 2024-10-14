@@ -1,17 +1,18 @@
 {
-    "name": "149928614-modularavel/modularavel",
+    "name": "modularavel/modularavel",
+    "version": "v1.0.0-beta",
     "description": "This is my package modularavel",
     "keywords": [
         "modularavel",
         "laravel",
         "modularavel"
     ],
-    "homepage": "https://github.com/149928614-modularavel/modularavel",
+    "homepage": "https://github.com/modularavel/modularavel",
     "license": "MIT",
     "authors": [
         {
             "name": "modularavel",
-            "email": "149928614+modularavel@users.noreply.github.com",
+            "email": "modularavel@crsistemas.dev.br",
             "role": "Developer"
         }
     ],
@@ -35,13 +36,13 @@
     },
     "autoload": {
         "psr-4": {
-            "Modularavel\\Modularavel\\": "src/",
-            "Modularavel\\Modularavel\\Database\\Factories\\": "database/factories/"
+            "Modularavel\\": "src/",
+            "Modularavel\\Database\\Factories\\": "database/factories/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Modularavel\\Modularavel\\Tests\\": "tests/",
+            "Modularavel\\Tests\\": "tests/",
             "Workbench\\App\\": "workbench/app/"
         }
     },
@@ -73,10 +74,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Modularavel\\Modularavel\\ModularavelServiceProvider"
+                "Modularavel\\ModularavelServiceProvider"
             ],
             "aliases": {
-                "Modularavel": "Modularavel\\Modularavel\\Facades\\Modularavel"
+                "Modularavel": "Modularavel\\Facades\\Modularavel"
             }
         }
     },
